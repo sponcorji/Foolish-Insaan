@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foolish Insaan</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+</head>
+<script>
+    alert("Warning:It will require internet.");
+    setInterval(() => {
+
+        let a;
+        a = new date();
+        date = a.toLocaleDateString()
+        document.getElementById('date').innerhtml = date
+    }, 100);
+</script>
+<style>
+    * {
+        align-items: center;
+        text-align: center;
+        background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F920915823773024634%2F&psig=AOvVaw0eG3mySu5uRtlIXhEzK2of&ust=1649599769368000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPCV1aCUh_cCFQAAAAAdAAAAABAD);
+    }
+
+    body {
+        border-top: 10px;
+        background: radial-gradient(aqua, aqua, aqua, blue);
+    }
+    html{
+        background: brown;
+    }
+
+    textarea {
+        background: transparent;
+    }
+
+
+    footer {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        width: 100%;
+
+        font: 'sans-serif';
+        align-items: center;
+        display: flex;
+        flex-flow: initial;
+    }
+
+    .divstar {
+        display: inline;
+        outline: black, 10pc;
+    }
+
+    .Submit {
+        background: rgb(136, 9, 136);
+        color: white;
+        size: 200px;
+        align-items: center;
+    }
+
+    .pspan:checked {
+        color: #09f;
+    }
+
+    .divstar:not(:hover) label input:checked~.pspan,
+    .divstar:hover label:hover input~.pspan {
+        color: #09f;
+    }
+
+    input {
+        color: transparent;
+    }
+
+    p.h {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: burlywood, indianred;
+        outline-color: blueviolet;
+        outline-width: thick;
+    }
+
+    #h {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: burlywood;
+        outline-color: blueviolet;
+        outline-width: thick;
+    }
+
+    input#h {
+        color: blue;
+    }
+
+    input#h:checked {
+        color: brown;
+    }
+</style>
+
+<body>
+    <header>
+        <menu><img
+                src="https://lh3.googleusercontent.com/-Ras8p8z-AMo/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucl91AoQoK8M1mKWbAMOXcBEYlq-oA/photo.jpg?sz=46"
+                alt="Foolish Insaan" width="40px" height=""><br>
+            <p style="text-align:center; display: inline-block;">Foolish Insaan</p>
+        </menu>
+        <div class="con" id="con"
+            style="align-items: center; align-self: center;align-content: center; padding-right: 6px;">
+<!-- 
+            <button style="background-color: rgb(8, 189, 8); color: white;">
+                <a href="tel:+917676153380" id="phone" style="color: white;"> <svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg> Call</a>
+            </button> -->
+
+            <button style="background-color: blue;">
+                <a href="http://www.instagram.com/foolish_insaan_official/" id="follow" style="color: white;"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg> Follow</a>
+            </button>
+            <button style="background-color: red;">
+                <a href="https://www.youtube.com/channel/UCQRqQrLgVct7-I6XtTtObAA?sub_confirmation=1" id="subscribe"
+                    style="color: white;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path
+                            d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                    </svg> Subscribe</a>
+            </button>
+            <button style="background-color: firebrick;">
+                <a href="mailto:ullubhai2008@gmail.com" id="mail" style="color: white;"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765l-6-3.2ZM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516ZM0 13.373l5.693-3.163L0 6.873v6.5Z" />
+                    </svg> Mail</a>
+            </button>
+
+
+        </div>
+    </header>
+
+    <address>
+        <h1> Welcome. </h1>
+    </address>
+    <ASide>Advertisement</ASide>
+    <h1>
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-chat-text-fill"
+            viewBox="0 0 16 16">
+            <path
+                d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
+        </svg>
+         If you want Youtube collaboraton, kindly inform me by sending detils here.
+    </h1>
+    <form action="mailto:ullubhai2008@gmail.com" method="post" onsubmit="'mailto:ullubhai2008@gmail.com'">
+        <textarea name="chatting" id="chatting" style="width: 1120px; height:200px; color: black;"
+            placeholder="chat here" mailto:ullubhai2008@></textarea>
+        <br><svg xmlns="http://www.w3.org/2000/svg" id="787" width="22" height="22" fill="currentColor"
+            class="bi bi-keyboard-fill" viewBox="0 0 16 16" onclick="output(Typable_upside);"
+            aria-details="Typable upside">
+            <path
+                d="M0 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6zm13 .25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-.5a.25.25 0 0 0-.25.25zM2.25 8a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 3 8.75v-.5A.25.25 0 0 0 2.75 8h-.5zM4 8.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 5 8.75v-.5A.25.25 0 0 0 4.75 8h-.5a.25.25 0 0 0-.25.25zM6.25 8a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 7 8.75v-.5A.25.25 0 0 0 6.75 8h-.5zM8 8.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 9 8.75v-.5A.25.25 0 0 0 8.75 8h-.5a.25.25 0 0 0-.25.25zM13.25 8a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-.5zm0 2a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-.5zm-3-2a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h1.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-1.5zm.75 2.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-.5a.25.25 0 0 0-.25.25zM11.25 6a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-.5zM9 6.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5A.25.25 0 0 0 9.75 6h-.5a.25.25 0 0 0-.25.25zM7.25 6a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 8 6.75v-.5A.25.25 0 0 0 7.75 6h-.5zM5 6.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 6 6.75v-.5A.25.25 0 0 0 5.75 6h-.5a.25.25 0 0 0-.25.25zM2.25 6a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h1.5A.25.25 0 0 0 4 6.75v-.5A.25.25 0 0 0 3.75 6h-1.5zM2 10.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-.5a.25.25 0 0 0-.25.25zM4.25 10a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h5.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-5.5z" />
+        </svg>
+        <button type="submit" mailto:ullubhai@gmail.com style="background-color: green;"> <svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill"
+                viewBox="0 0 16 16">
+                <path
+                    d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z" />
+            </svg> Send</button>
+    </form>
+
+    <h2><img height="35px"
+            src="https://storage.googleapis.com/support-kms-prod/6BiRNiy1RMpIrDn5uJSH7GgbSyqXx0HALFbB">Shorts: Shorts by
+        Foolish Insaan </h2>
+    <iframe name="shorts" width="560" height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PLuhFNQjILfwsCYJye4RH6tDXs9UulzrCG"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+<footer>
+    <script>
+        function func1() {
+            document.getElementById('star01').style.fontSize = '22px';
+            document.getElementById('star01').style.color = 'blue';
+        }
+        function func2() {
+            document.getElementById('star02').style.fontSize = '22px';
+            document.getElementById('star02').style.color = 'blue';
+        }
+        function func3() {
+            document.getElementById('star03').style.fontSize = '22px';
+            document.getElementById('star03').style.color = 'blue';
+        }
+        function func4() {
+            document.getElementById('star04').style.fontSize = '22px';
+            document.getElementById('star04').style.color = 'blue';
+        }
+        function func5() {
+            document.getElementById('star05').style.fontSize = '22px';
+            document.getElementById('star05').style.color = 'blue';
+        }
+    </script>
+    <figure>
+        <Tarea>
+            <form onsubmit="'mailto:ullubhai2008@gmail.com'" itemid="comment"
+                action="mailto:ullubhai2008@gmail.com" method="post"
+                oninput="star.value=parseInt(star1.value)+parseInt(star2.value)+parseInt(star3.value)+parseInt(star4.value)+parseInt(star5.value)">
+                <input type="text" name="First_name" id="firstn" placeholder="First Name"
+                    style="background-color:transparent; color: white; align-items: center;">
+                <input type="text" name="last_name" id="lastn" placeholder="Last Name"
+                    style="background-color: transparent; color: white; align-items: center;">
+                <br>
+                <p class="h">Enter your feedback
+                <p>
+                    <br>
+                    <textarea name="feedback" id="feedback" class="h" placeholder="Enter your feedback"
+                        style="width: 1050px; height: 150px; background-color: transparent; color: white; align-items: center;">  </textarea>
+                    <br>
+                <article style="padding: 0%; margin: 0%;touch-action: double-tap-zoom;">
+                    <!-- <form action="'mailto:ullubhai2008@gmail.com'" method="post" mailto:ullubhai2008@gmail.com>
+                    </form> -->
+                    Rate us: Click on this star <br>
+
+                    <div class="divstar" id="divstar">
+                        <p onclick="func1()" id="star01" style="display: inline-flex; font-size: x-large;"> <input
+                                type="checkbox" name="star1" id="star1" hidden oninput="value=1" value=0> <label
+                                for="star1" id=ratedstar class="pspan" style="display: block;">★</label></p>
+                        <p onclick="func2()" id="star02" style="display: inline-flex; font-size: x-large;"> <input
+                                type="checkbox" name="star2" id="star2" hidden oninput="value=1" value=0> <label
+                                for="star2" id=ratedstar class="pspan" style="display: block;">★</label></p>
+                        <p onclick="func3()" id="star03" style="display: inline-flex; font-size: x-large;"> <input
+                                type="checkbox" name="star3" id="star3" hidden oninput="value=1" value=0> <label
+                                for="star3" id=ratedstar class="pspan" style="display: block;">★</label></p>
+                        <p onclick="func4()" id="star04" style="display: inline-flex; font-size: x-large;"> <input
+                                type="checkbox" name="star4" id="star4" hidden oninput="value=1" value=0> <label
+                                for="star4" id=ratedstar class="pspan" style="display: block;">★</label></p>
+                        <p onclick="func5()" id="star05" style="display: inline-flex; font-size: x-large;"> <input
+                                type="checkbox" name="star5" id="star5" hidden oninput="value=1" value=0> <label
+                                for="star5" id=ratedstar class="pspan" style="display: block;">★</label></p>
+                    </div>
+                    Your response: <output name="star">0</output> star
+
+                    <br>
+                    <button type="submit" class="Submit" mailto:ullubhai2008@2008@gmail.com>Submit</button>
+            </form>
+            </article>
+            <br>
+
+
+            <p class="h"> Thanks for watching.</p>
+            <div class="con" id="con"
+            style="align-items: center; align-self: center;align-content: center; padding-right: 6px;">
+<!-- 
+            <button style="background-color: rgb(8, 189, 8); color: white;">
+                <a href="tel:+917676153380" id="phone" style="color: white;"> <svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg> Call</a>
+            </button> -->
+
+            <button style="background-color: blue;">
+                <a href="http://www.instagram.com/foolish_insaan_official/" id="follow" style="color: white;"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg> Follow</a>
+            </button>
+            <button style="background-color: red;">
+                <a href="https://www.youtube.com/channel/UCQRqQrLgVct7-I6XtTtObAA?sub_confirmation=1" id="subscribe"
+                    style="color: white;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path
+                            d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                    </svg> Subscribe</a>
+            </button>
+            <button style="background-color: firebrick;">
+                <a href="mailto:ullubhai2008@gmail.com" id="mail" style="color: white;"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765l-6-3.2ZM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516ZM0 13.373l5.693-3.163L0 6.873v6.5Z" />
+                    </svg> Mail</a>
+            </button>
+
+
+        </div>
+                </button>
+            </div>
+            <p class="copyright" style="color: rgba(255, 255, 255, 0.685);"> &copy, Copyright Disclaimer Under Section
+                107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment,
+                news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute
+                that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of
+                fair use.</p>
+            &copy; All rights recieved. 
+</footer>
+</Tarea>
+</figure>
+</body>
+</html>
